@@ -12,10 +12,8 @@ young team，have enthusiasm to build excellent indie games！
 
 ## 加入我们
 
-rust developers
-
-C# godot developers
-
+rust developers<br>
+C# godot developers<br>
 animators
 
 ## 联系我们

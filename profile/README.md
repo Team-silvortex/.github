@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Team-silvortex/.github/assets/logo_nuis.png" width="240" alt="NuisLang Logo">
+  <img src="https://github.com/Team-silvortex/.github/blob/main/assets/logo_nuis.png" width="240" alt="NuisLang Logo">
 </p>
 
 <h1 align="center">🪶 Team Silvortox</h1>

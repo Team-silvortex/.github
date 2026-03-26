@@ -1,89 +1,67 @@
-<p align="center">
-  <img src="https://github.com/Team-silvortex/.github/blob/main/assets/logo_nuis.png" width="240" alt="NuisLang Logo">
-</p>
+# Silvortex
 
-<h1 align="center">🪶 Team Silvortox</h1>
+Silvortex is a collection of system-oriented experimental projects.
 
-<p align="center"><i>“语言的使命，不是追随硬件，而是超越它。”</i></p>
+These projects explore different aspects of:
 
----
+* network observability
+* distributed orchestration
+* programmable computation
+* simulation systems
 
-## 🌌 Who We Are
+They are developed independently, with varying levels of maturity.
 
-**Team Silvortox** 是一个独立研发团队，  
-致力于打造以语义为中心的计算文明。  
+Some are functional prototypes.
+Some are still forming.
+Some exist only as early-stage implementations.
 
-我们正在创造 **NuisLang** ——  
-一门以语义抽象为核心、可自学习进化的语言系统。  
-它不仅运行于系统之上，而是 **自身即系统**。
-
-> “Rust 控制硬件，Nuis 控制语义。”
+There is no enforced unification between them at this stage.
 
 ---
 
-## 🧩 Ecosystem
+## Projects
 
-| Project | Role | Description |
-|----------|------|-------------|
-| [**nuislang**](https://github.com/Team-silvortex/nuislang) | Core Language | Semantics-centric programming language that unifies computation beyond hardware. |
-| [**vulpoya**](https://github.com/Team-silvortex/vulpoya) | LSP Server | Smart Language Server for Nuis — syntax intelligence and AI-assisted semantics. |
-| [**yalivia**](https://github.com/Team-silvortex/yalivia) | Runtime Library | Cross-domain semantic runtime enabling multi-device execution and AI integration. |
+### Observability & Network Systems
 
-Together they form the **Nuis Toolchain**  
-> *Language · Server · Runtime*
+* **cyanrex-lab (cy)**
+  Browser-based eBPF experimentation platform with isolation and observability.
 
----
+* **gewyvern (ge)**
+  DSL-driven eBPF engine for protocol-agnostic network flow modeling.
 
-## 🧠 Philosophy
+* **leserpent (le)**
+  Orchestration layer for managing distributed gewyvern agents.
 
-1. **Semantics > Syntax** — 描述意图，而非形式。  
-2. **Compiler as Agent** — 可学习、可自我重写。  
-3. **AI as Co-author** — 共治语义决策，而非被调用。  
-4. **Language = System** — 每个 mod 都是独立宇宙。  
-5. **Meaning is the new machine code.**
+* **etragon (et)**
+  ML-driven network flow simulation and mock generation system.
 
 ---
 
-## 🪶 Origin & Shift
+### Compute & Language Systems
 
-Silvortox 最初是一家独立游戏工作室。  
-但我们意识到：  
-与其构筑一个世界，不如创造能孕育世界的语言。  
+* **nuislang**
+  AOT-first system language for unified heterogeneous computation via YIR.
 
-于是，我们转向构建 **NuisLang** ——  
-让语言成为文明的操作系统。
+* **yalivia**
+  Lightweight JIT runtime for executing and optimizing YIR.
 
----
-
-## 🧭 Mission
-
-To build the first compiler that **understands**,  
-and the first runtime that **reasons**.
-
-> 我们不再为机器编程，  
-> 我们与机器一起思考。
+* **vulpoya**
+  Static analyzer and verifier for the nuis/YIR ecosystem.
 
 ---
 
-## 📜 Documents & Manifestos
+### Simulation Systems
 
-- [**The Nuis Whitepaper**](https://github.com/Team-silvortex/nuislang/blob/main/docs/whitepaper.md)  
-- [**The Nuis Manifesto**](https://github.com/Team-silvortex/nuislang/blob/main/docs/manifesto.md)  
-- [**BNF Grammar**](https://github.com/Team-silvortex/nuislang/blob/main/docs/nuislang.bnf)  
-- [**Architecture Overview**](https://github.com/Team-silvortex/nuislang/blob/main/docs/architecture.md)
+* **kyuubiki**
+  Distributed FEM computation platform with a web-based interface.
 
 ---
 
-## 🧬 License & Ethos
+## Notes
 
-All projects under **MIT License** —  
-to encourage open semantic-system research.  
+This is not a product suite.
 
-> “We are not writing code — we are writing meaning.”  
-> **Long live semantics. Long live Nuis.**
+Each project is developed based on its own constraints and direction.
+Cross-project integration may happen in the future, but is not a current goal.
 
----
-
-<p align="center">
-  <sub>© 2025 Team Silvortox · Semantics is the new syntax.</sub>
-</p>
+The focus is on building working systems, not presenting a unified framework.

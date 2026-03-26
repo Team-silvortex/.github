@@ -1,6 +1,7 @@
 # Silvortex
 
-Silvortex is a collection of system-oriented experimental projects.
+Silvortex is a collection of system-oriented experimental projects,
+focused on building observable, controllable, and programmable systems.
 
 These projects explore different aspects of:
 
@@ -13,7 +14,7 @@ They are developed independently, with varying levels of maturity.
 
 Some are functional prototypes.
 Some are still forming.
-Some exist only as early-stage implementations.
+Some exist as early-stage implementations.
 
 There is no enforced unification between them at this stage.
 
@@ -27,13 +28,13 @@ There is no enforced unification between them at this stage.
   Browser-based eBPF experimentation platform with isolation and observability.
 
 * **gewyvern (ge)**
-  DSL-driven eBPF engine for protocol-agnostic network flow modeling.
+  DSL-driven eBPF engine for protocol-agnostic network flow modeling, designed for dynamic analysis and debugging.
 
 * **leserpent (le)**
-  Orchestration layer for managing distributed gewyvern agents.
+  Orchestration layer for managing distributed gewyvern agents and coordinating execution workflows.
 
 * **etragon (et)**
-  ML-driven network flow simulation and mock generation system.
+  ML-driven network flow simulation and mock generation system for controlled experimentation.
 
 ---
 
@@ -43,17 +44,17 @@ There is no enforced unification between them at this stage.
   AOT-first system language for unified heterogeneous computation via YIR.
 
 * **yalivia**
-  Lightweight JIT runtime for executing and optimizing YIR.
+  Lightweight JIT runtime for executing and optimizing YIR with adaptive behavior.
 
 * **vulpoya**
-  Static analyzer and verifier for the nuis/YIR ecosystem.
+  Static analyzer and verifier for the nuis/YIR ecosystem, focused on correctness and constraints.
 
 ---
 
 ### Simulation Systems
 
 * **kyuubiki**
-  Distributed FEM computation platform with a web-based interface.
+  Distributed FEM computation platform with a web-based interface and orchestration layer.
 
 ---
 
@@ -61,7 +62,8 @@ There is no enforced unification between them at this stage.
 
 This is not a product suite.
 
-Each project is developed based on its own constraints and direction.
+Each project evolves under its own constraints and direction.
 Cross-project integration may happen in the future, but is not a current goal.
 
 The focus is on building working systems, not presenting a unified framework.
+Practical correctness and system behavior are prioritized over presentation.
